@@ -5,9 +5,10 @@
   </head>
   <body>
     <form action="http://localhost/login.php">
-      <p>ID: <input type="text" name="id"></p>
-      <p>Password: <input type="password" name="password"></p>
-      <p>Num: <input type="text" name="number"></p>
+      <p>ID: <input type="text" name="id" value="아이디를 입력하세요"></p>
+      <p>Password: <input type="password" name="password" value="default value"></p>
+      <p>Num: <input type="text" name="number" value="번호를 입력하세요"></p>
+      <p>text: <textarea cols="30" rows="5">가입 사유를 입력하세요</textarea></p>
       <input type="submit">
     </form>
   </body>
