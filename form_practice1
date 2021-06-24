@@ -18,10 +18,18 @@
       </p>
       <p>
         <h2>Color</h2>
-        White <input type="checkbox" name="color" value="white">
-        Pink <input type="checkbox" name="color" value="pink">
-        Blue <input type="checkbox" name="color" value="blue">
-        Black <input type="checkbox" name="color" value="black">
+        <label>
+          White <input type="checkbox" name="color" value="white">
+        </label>
+        <label>
+          Pink <input type="checkbox" name="color" value="pink">
+        </label>
+        <label>
+          Blue <input type="checkbox" name="color" value="blue">
+        </label>
+        <label>
+          Black <input type="checkbox" name="color" value="black">
+        </label>
       </p>
     </form>
     <form action="http://localhost/order2.php">
