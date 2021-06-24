@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form action="http://localhost/login.php">
+      <p>ID <input type="text" name="id" value="아이디를 입력하세요"></p>
+      <p>Password <input type="password" value="12345678"></p>
+      <input type="submit" value="Log in">
+    </form>
+    <form action="http://localhost/order1.php">
+      <p>
+        <h2>Size</h2>
+        90 <input type="radio" name="size" value="90" checked>
+        95 <input type="radio" name="size" value="95">
+        100 <input type="radio" name="size" value="100">
+      </p>
+      <p>
+        <h2>Color</h2>
+        White <input type="checkbox" name="color" value="white">
+        Pink <input type="checkbox" name="color" value="pink">
+        Blue <input type="checkbox" name="color" value="blue">
+        Black <input type="checkbox" name="color" value="black">
+      </p>
+    </form>
+    <form action="http://localhost/order2.php">
+      <h2>Amount</h2>
+      <select name="amount">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4 or more">4 or more</option>
+      </select>
+      <input type="submit" value="선택">
+    </form>
+  </body>
+</html>
