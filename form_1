@@ -11,5 +11,16 @@
       <p>text: <textarea cols="30" rows="5">가입 사유를 입력하세요</textarea></p>
       <input type="submit">
     </form>
+    <form action="http://localhost/size.php">
+      <h1>size</h1>
+      <select name="size">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+      <input type="submit">
+    </form>
   </body>
 </html>
