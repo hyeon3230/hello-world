@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form action="http://localhost/order.php">
+      <p>
+        <h1>Color</h1>
+        Red <input type="radio" name="color" value="red" checked>
+        Blue <input type="radio" name="color" value="blue">
+        Black <input type="radio" name="color" value="black">
+      </p>
+      <p>
+        <h1>Size</h1>
+        90 <input type="checkbox" name="size" value="90" checked>
+        95 <input type="checkbox" name="size" value="95">
+        100 <input type="checkbox" name="size" value="100">
+      </p>
+      <input type="submit">
+    </form>
+  </body>
+</html>
