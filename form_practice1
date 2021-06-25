@@ -6,7 +6,7 @@
   </head>
   <body>
     <form action="http://localhost/login.php" method="post">
-      <p>ID <input type="text" name="id" value="아이디를 입력하세요"></p>
+      <p>ID <input type="text" name="id" value="Enter your ID"></p>
       <p>Password <input type="password" value="12345678"></p>
       <p>Birth <input type="date" name="datevalue"></p>
       <p>Tel <input type="tel" name="telvalue" value="000-0000-0000"></p>
