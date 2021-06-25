@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      h1 {color: red;}
+    </sylte>
+  </head>
+  <body>
+    <h1>Whale</h1>
+    <h2>Shark</h2>
+    <h3>Jellyfish</h3>
+  </body>
+</html>
