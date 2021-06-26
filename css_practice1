@@ -7,9 +7,14 @@
                 padding: 30px;
                 margin: 50px;}
       #flexible {border: 1px red solid;}
+      img {
+        border: 1px solid blue;
+        float: right;
+        }
     </style>
   </head>
   <body>
+    <img src="https://cdn.pixabay.com/photo/2015/12/09/22/19/shark-1085669_1280.png" width="150"/>
     <ul>
       <li>Whale</li>
       <li id="fierce">Shark</li>
