@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      #fierce {border: 1px green dotted;
+                padding: 30px;
+                margin: 50px;}
+      #flexible {border: 1px red solid;}
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Whale</li>
+      <li id="fierce">Shark</li>
+      <li id="flexible">Jellyfish</li>
+    </ul>
+  </body>
+</html>
