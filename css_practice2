@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      /*
+      h1 {color: powderblue;}
+      li {color: tomato;}
+      */
+      html {color: pink;}
+      #select {color: powderblue;}
+      body {border: 1px solid gray;}
+    </style>
+  </head>
+  <body>
+    <h1>under the sea</h1>
+    <ul>
+      <li>whale</li>
+      <li id="select">shark</li>
+      <li>seaweed</li>
+    </ul>
+  </body>
+</html>
