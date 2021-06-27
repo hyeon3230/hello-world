@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <style>
-      h1, h2 {color: red; font-size: 10px;}
+      h1, h2 {color: tomato; font-size: 10px;}
       h2 {text-decoration: underline;}
       header h1 {border: 1px solid red;}
+      h3 {color: #AC6AB9;}
+      h4 {color: rgb(50, 110, 150);}
     </style>
   </head>
   <body>
@@ -14,5 +16,6 @@
     </header>
     <h2>Shark</h2>
     <h3>Jellyfish</h3>
+    <h4>seaweed</h4>
   </body>
 </html>
