@@ -1,6 +1,7 @@
   header{
     border-bottom: 2px solid gray;
     padding: 10px;
+    text-align: center;
   }
   nav {
     border-right: 1px solid gray;
