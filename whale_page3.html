@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="http://localhost/style.css">
   </head>
-  <body>
+  <body id="target">
     <img src="https://image.freepik.com/free-vector/illustration-summer-beach-object_53876-8236.jpg"
          width="100" alt="고래 이미지" title="고래 이미지">
     <header>
@@ -17,6 +17,10 @@
         <li><a href="http://localhost/whale_page3.html">육지생물로서의 흔적</a></li>
       </ol>
     </nav>
+    <div id="button">
+      <input type="button" value="white" onclick="document.getElementById('target').className='white'"/>
+      <input type="button" value="blue" onclick="document.getElementById('target').className='blue'" />
+    </div>
     <article>
       <h2>육지생물로서의 흔적</h2>
       <ul>
